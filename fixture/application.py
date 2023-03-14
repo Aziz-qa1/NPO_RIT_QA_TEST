@@ -6,7 +6,7 @@ class Application:
     def __init__(self):
         options = webdriver.FirefoxOptions()
         options.binary_location = r"C:\Program Files\Mozilla Firefox\firefox.exe"
-        self.wd = webdriver.Firefox(executable_path=r'C:\Users\Aziz\PycharmProjects\pythonProject2\geckodriver.exe',
+        self.wd = webdriver.Firefox(executable_path=r'/geckodriver.exe',
                                     options=options)
         self.wd.implicitly_wait(30)
 
